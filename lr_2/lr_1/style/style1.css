@@ -89,4 +89,13 @@ ul {
     }
 }
 
+img {
 
+    margin: 10px 0 0 230px;
+    height: 400px;
+    width: auto;
+}
+
+img.sky {
+    margin: 0;
+}
