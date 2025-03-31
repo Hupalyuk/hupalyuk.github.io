@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 
 .container{
@@ -9,10 +9,9 @@
   align-items: flex-start;
 }
 
-
 .container .firs-part {
   width: 15%;
-  height: 900px;
+  height: 1000px;
   background: rgb(40, 101, 146);
   display: inline-block;
   margin-bottom: -100px;
@@ -127,9 +126,10 @@ h2 {
 }
 
 button {
+  margin-bottom: 20px;
   padding: 10px;
-  width: auto;
-  height: auto;
+  width: 148px;
+  height: 44px;
   border-radius: 5px; 
   background-color: rgb(40, 101, 146);
 }
