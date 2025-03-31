@@ -1,0 +1,101 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Контейнер */
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовок */
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.fh1 h1 {
+    margin: 0;
+}
+
+/* Секції */
+section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки секцій */
+h2 {
+    color: #4682b4;
+}
+
+/* Таблиця */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4682b4;
+    color: white;
+}
+
+/* Посилання */
+a {
+    text-decoration: none;
+    color: #4682b4;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Список */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+    .conteiner {
+        width: 95%;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
+
+img {
+
+    margin: 10px 0 0 230px;
+    height: 400px;
+    width: auto;
+}
+
+img.sky {
+    margin: 0;
+}
