@@ -1,0 +1,12 @@
+#pacman { 
+	width: 0; 
+	height: 0; 
+	border-right: 70px solid transparent; 
+	border-top: 70px solid #ffde00; 
+	border-left: 70px solid #ffde00; 
+	border-bottom: 70px solid #ffde00; 
+	border-top-left-radius: 70px; 
+	border-top-right-radius: 70px; 
+	border-bottom-left-radius: 70px; 
+	border-bottom-right-radius: 70px;
+}

@@ -1,0 +1,8 @@
+#left_pointing_triangle {
+	width: 0;
+	height: 0;
+	border-top: 70px solid transparent;
+	border-left: 140px solid #ff5a00;
+	border-bottom: 70px solid transparent;
+	
+}
