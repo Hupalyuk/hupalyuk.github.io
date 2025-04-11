@@ -1,0 +1,44 @@
+.table {
+  width: 250px;
+  border: 3px solid #ccc;
+  text-align: center;
+  font-family: Arial;
+  margin: 20px auto;
+  border-top-color: #00db74;
+  border-bottom-color: #00db74; 
+}
+.title {
+  font-size: 24px;
+  background-color: #fff;
+  color: #00db74;
+  padding: 20px;
+  font-weight: bold;
+}
+.price {
+  background-color: #00db74;
+  color: white;
+  font-size: 24px;
+  padding: 15px 0;
+  font-weight: bold;
+}
+.option {
+  color: #938c82;
+  font-size: 14px;
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+.option:nth-child(even) {
+  background-color: #f7f7f7;
+}
+.btn {
+  margin: 35px;
+}
+.btn button {
+  border-radius: 3px;
+  padding: 8px 16px;
+  border: 2px solid #00db74;
+  color: #00db74;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
