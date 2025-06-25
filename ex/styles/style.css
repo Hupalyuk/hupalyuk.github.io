@@ -14,7 +14,7 @@
 }
 
 .menu-icon {
-  display: none;
+  display: block;
   position: absolute;
   right: 120px;
   top: 20px;
