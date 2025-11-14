@@ -6,11 +6,16 @@ let book = {
     isRead: true,
     bookInfo() {
         console.log(`Назва: ${this.title}, Автор: ${this.author}, Рік видання: ${this.year}, Прочитана: ${this.isRead ? "Так" : "Ні"}`)
+    },
+    markAsRead() {
+        this.isRead = true;
     }
 };
 
 book.isRead = !book.isRead;
+book.markAsRead();
 book.bookInfo();
+
 
 
 // 2
@@ -42,7 +47,6 @@ console.log("Непрочитані книги:", unreadBooks)
 let talkienBook = library.find(book => book.author === "J.R.R. Tolkien");
 console.log("Книга Толкіна:", talkienBook)
 
-
 // 4
 function addBookLibrary() {
     let title = prompt("Введіть назву книги:");
@@ -50,5 +54,13 @@ function addBookLibrary() {
     let year = prompt("Введіть рік видання книги:");
     let isRead = prompt("Чи прочитана книга:");
 
-    library.push({})
+    library.push({title, author, year, isRead})
+    displayLibrary();
 }
+addBookLibrary();
+
+function calculateAverageYear() {
+    let totalYears = library.reduce((sum, book) => sum + book.year, 0)
+    return totalYears / library.length
+}
+console.log(calculateAverageYear());
